@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Verbindung zu ChatGPT
-os.environ['AZURE_OPENAI_KEY'] = '65ee6d36768e44b894d04c922e6cbe7a'
+os.environ['AZURE_OPENAI_KEY'] = 'Placeholder'
 os.environ['AZURE_OPENAI_ENDPOINT'] = 'https://mbeopenai.openai.azure.com/'
 
 client = AzureOpenAI(
