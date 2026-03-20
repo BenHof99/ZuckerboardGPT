@@ -1,7 +1,7 @@
 import os
 from openai import AzureOpenAI
 
-os.environ['AZURE_OPENAI_KEY'] = '65ee6d36768e44b894d04c922e6cbe7a'
+os.environ['AZURE_OPENAI_KEY'] = 'Placeholder'
 os.environ['AZURE_OPENAI_ENDPOINT'] = 'https://mbeopenai.openai.azure.com/'
 
 client = AzureOpenAI(
@@ -248,7 +248,7 @@ def generate_response(start_date, end_date, commodity, prompt_type):
     start_date_dt, end_date_dt = convert_dates(start_date, end_date)
 
     # Open database connection
-    conn, cursor = connect_to_database("C:\\Users\\marku\\Downloads\\ZuckerboardGPT_Master.db")  # PATH aktualisieren
+    conn, cursor = connect_to_database("C:\\Placeholder.db")  # PATH aktualisieren
 
     # Fetch data from Database:
     market_data = get_market_data(cursor, conn, commodity, start_date_dt, end_date_dt)
