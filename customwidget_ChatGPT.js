@@ -121,7 +121,7 @@
                 generatedText.value = "Analysis in progress...";
                 // Implement the analysis logic and fetch call here
                 try {
-                    const response = await fetch("https://finaigpt-public.eu.ngrok.io/generate_response", {
+                    const response = await fetch("https://Placeholder.io/generate_response", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
@@ -156,7 +156,7 @@
                 generatedText.value = "Forecast in progress...";
                 // Implement the forecast logic and fetch call here
                 try {
-                    const response = await fetch("https://finaigpt-public.eu.ngrok.io/generate_response", {
+                    const response = await fetch("https://Placeholder.io/generate_response", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
