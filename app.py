@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, Response
 from flask_cors import CORS  # Importieren von flask_cors
 
 # Pfad zum Verzeichnis des Skripts hinzufügen
-sys.path.append(r'C:\Users\janni\Desktop\DT-Projekt\backend_prompt_chatgpt_aufruf.py')
+sys.path.append(r'x.py')
 
 from backend_prompt_chatgpt_aufruf import generate_response
 
